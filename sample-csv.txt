@@ -1,0 +1,21 @@
+# Sample Data Format
+
+If you're not including the actual CSV file in your repository (recommended for privacy/security), this file shows the expected format of the data.
+
+## Expected CSV Format
+
+Your `SurveyResultsExtractShort.csv` file should have columns similar to this:
+
+```
+Banner Name,Site Code,Site Name,Status,Activity Date,Does the store have a glass cabinet?,Where you able to find the flyer?,Provide notes and what was discussed with the store staff if the flyer was not found.,Where you able to locate the shipper?,Provide comments if the shipper was not located. Refer to the help for what is required here.,Have you found any off locations in this store today?,Have you located the Racing Section in this store?,Comments
+Banner A,101,Store One,Complete,2023-06-15,Yes,Yes,,Yes,,No,Yes,Everything looks good
+Banner B,102,Store Two,Not Completed,,,,,,,,,
+Banner A,103,Store Three,Complete,2023-06-16,Yes,No,The manager said the flyers were not received,Yes,,Yes,Yes,
+```
+
+## Data Privacy Note
+
+Consider excluding sensitive data when uploading to public repositories. Options include:
+1. Use placeholder/anonymized data for demos
+2. Add the CSV file to .gitignore (it's commented out by default)
+3. Use a file upload option in the app instead of hardcoding the CSV path
